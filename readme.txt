@@ -1,21 +1,9 @@
-**** Gumtree Australia Front-end Test ***
+This application uses Simple Python Server to run this project.
 
-Please implement the content box component in the screenshot.
+Steps to setup simple server:
 
-Requirements:
-- Use React Framework
-- Please do not use any open-source plugins
-- The content must come from the json file
-- Must be functional; the Previous and Next buttons must be clickable and
-   update the content, the content box must be collapsible/expandable
-- Must be responsive and mobile-friendly
-- Error handling 
-- Include as many comments as possible to explain your code
-- Works on modern browsers.  
+  1) Goto working folder in terminal
 
-Bonus points:
-- Server-side rendering
-- Use of SASS where appropriate
-- Any optimisation to reduce load time
-- Search engines friendly
-- UEX optimisation
+  2) Run this command: `python -m SimpleHTTPServer`
+  
+  3) That will start a file server and in your browser, go to `localhost:8000`
